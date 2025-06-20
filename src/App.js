@@ -8,6 +8,10 @@ const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('hero');
 
   useEffect(() => {
+    document.title = "大迫汐欄 - ポートフォリオ"; 
+  }, []);
+
+  useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
