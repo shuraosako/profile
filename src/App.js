@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, Mail, Github, ExternalLink, Award, Globe, Code, User, Briefcase, GraduationCap, Calendar, MapPin, Star, Instagram } from 'lucide-react';
 import meImage from './images/me.png';
+import './App.css';
 
 const Portfolio = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -13,20 +14,20 @@ const Portfolio = () => {
   }, []);
 
   const skills = [
-    { name: 'Python', level: 4 },
-    { name: 'JavaScript', level: 3 },
-    { name: 'React', level: 3 },
-    { name: 'Node.js', level: 2 },
-    { name: 'Java', level: 3 },
+    { name: 'Python', level: 2 },
+    { name: 'JavaScript', level: 2 },
+    { name: 'React', level: 2 },
+    { name: 'Node.js', level: 1 },
+    { name: 'Java', level: 2 },
     { name: 'C', level: 2 },
-    { name: 'Flutter', level: 3 },
+    { name: 'Flutter', level: 2 },
     { name: 'HTML/CSS', level: 4 },
-    { name: 'MySQL', level: 3 },
+    { name: 'MySQL', level: 2 },
     { name: 'Firebase', level: 3 },
-    { name: 'Figma', level: 2 },
-    { name: 'Canva', level: 4 },
+    { name: 'Figma', level: 4 },
+    { name: 'Canva', level: 3 },
     { name: 'GAN', level: 2 },
-    { name: '画像認識', level: 4 }
+    { name: '画像認識', level: 3 }
   ];
 
   const achievements = [
@@ -204,11 +205,11 @@ const Portfolio = () => {
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
                 2002年12月13日生まれ、鹿児島から福岡へ。<br />
-                小中学校ではサッカー部とキックボクシング部で体を鍛え、<br />
-                高校では囲碁で戦略的思考を磨きました。
+                小中学校ではサッカー部とキックボクシング部で体を鍛え、
+                <br />高校では囲碁で戦略的思考を磨きました。
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                現在は福岡工業大学院でAIと画像認識の研究に取り組んでいます。<br />
+                現在は福岡工業大学院でAIの研究に取り組んでいます。<br />
                 技術だけでなく、国際的な視野と実務経験を通じて、<br />
                 社会に貢献できるエンジニアを目指しています。
               </p>
