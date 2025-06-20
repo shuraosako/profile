@@ -146,7 +146,7 @@ const Portfolio = () => {
             <p className="text-lg md:text-xl mb-8 text-gray-400 max-w-2xl mx-auto leading-relaxed">
               福岡工業大学大学院生 | 開発者 | 研究者
               <br />
-              好奇心と技術で未来を探求する
+              スマホアプリ開発,WEB開発,画像処理
             </p>
             
             <div className="flex flex-wrap justify-center gap-4 mb-12">
