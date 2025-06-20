@@ -203,10 +203,14 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                2002年12月13日生まれ、鹿児島から福岡へ。小中学校ではサッカー部とキックボクシング部で体を鍛え、高校では囲碁で戦略的思考を磨きました。
+                2002年12月13日生まれ、鹿児島から福岡へ。<br />
+                小中学校ではサッカー部とキックボクシング部で体を鍛え、<br />
+                高校では囲碁で戦略的思考を磨きました。
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                現在は福岡工業大学大学院でAIと画像認識の研究に取り組んでいます。技術だけでなく、国際的な視野と実務経験を通じて、社会に貢献できるエンジニアを目指しています。
+                現在は福岡工業大学院でAIの研究に取り組んでいます。<br />
+                技術だけでなく、国際的な視野と実務経験を通じて、<br />
+                社会に貢献できるエンジニアを目指しています。
               </p>
               
               <div className="grid grid-cols-2 gap-4 mt-8">

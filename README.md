@@ -20,7 +20,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **[https://profile-shura.vercel.app](https://profile-shura.vercel.app)**
+🔗 **[https://profile-shura.vercel.app](https://profile-kappa-woad.vercel.app)**
 
 ## 🔧 Local Development
 
